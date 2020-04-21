@@ -1,0 +1,23 @@
+{
+  "name": "convert_my_money",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "start": "node index.js"
+  },
+  "author": "Igor Moreira",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "ejs": "^3.0.2",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "jest": "^25.2.4"
+  },
+  "jest":{
+    "collectCoverage": true
+  }
+}

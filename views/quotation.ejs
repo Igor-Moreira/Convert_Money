@@ -1,0 +1,11 @@
+<%- include('header') %>
+<div class ="result">
+    <% if(error){ %>
+        <%= error %>
+    <% }else{ %>
+        <%= amount %>
+        in dollars quotation:
+        <%=quotation %> is equal: <%= convertation %> real
+    <% } %>
+</div>
+<%-include('footer') %>
